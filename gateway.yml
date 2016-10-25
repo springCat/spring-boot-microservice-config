@@ -5,7 +5,7 @@ spring:
 spring:
   profiles: cloud
 
-erver:
+server:
   port: 10001
 
 sidecar:
