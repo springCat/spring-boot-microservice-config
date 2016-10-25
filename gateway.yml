@@ -1,4 +1,11 @@
-server:
+spring:
+  profiles:
+    active: cloud
+---
+spring:
+  profiles: cloud
+
+erver:
   port: 10001
 
 sidecar:
